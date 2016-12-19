@@ -104,6 +104,7 @@ pages:
     #文章列表: /archives
     最近访客: /guestbook
     #about: "/about"
+    标签: /tags
     
 
 
