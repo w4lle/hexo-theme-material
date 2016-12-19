@@ -7,13 +7,13 @@ head:
     favicon: "/img/favicon.png"
     high_res_favicon: "/img/favicon.png"
     apple_touch_icon: "/img/favicon.png"
-    keywords: 
+    keywords: "Android"
 
 # Jump Links Settings
 url:
-    rss: 
+    rss: /atom.xml
     daily_pic: "#"
-    logo: 
+    logo: "http://www.github.com/w4lle"
 
 
 # ---------------------------------------------------------------
@@ -26,7 +26,7 @@ scheme: Paradox
 
 # UI & UX: slogan, color, effect
 uiux:
-    slogan: "Hi, nice to meet you"
+    slogan: "人生如逆旅，我亦是行人。"
     theme_color: "#0097A7"
     theme_sub_color: "#00838F"
     hyperlink_color: "#00838F"
@@ -84,24 +84,28 @@ fonts: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "
 
 # SNS Menu
 sns:
-    email: youremail@email.com
-    twitter: "https://twitter.com/twitter"
-    facebook: "https://www.facebook.com/facebook"
-    googleplus: "https://www.google.com/"
-    weibo: 
+    email: "wanglinglong.me@gmail.com"
+    twitter: 
+    facebook: 
+    googleplus: 
     instagram: 
     tumblr: 
-    github: 
+    github: "https://github.com/w4lle"
+    csdn: "http://blog.csdn.net/hlglinglong"
+    weibo: "http://weibo.com/u/2274417881"
 
 # Sidebar User Dropdown
 dropdown: 
     Email Me: 
-        link: "#"
+        link: "mailto:wanglinglong.me@gmail.com"
         icon: email
 
 # Pages Menu
 pages:
+    #文章列表: /archives
+    最近访客: /guestbook
     #about: "/about"
+    标签: /tags
     
 
 
@@ -113,8 +117,8 @@ pages:
 # Available value:
 #     duoshuo | disqus
 comment:
-    use: 
-    shortname: 
+    use: duoshuo
+    shortname: w4lle
     duoshuo_thread_key: path
     duoshuo_embed_js_url: "https://static.duoshuo.com/embed.js"
 
@@ -134,7 +138,7 @@ leancloud:
     
 # Busuanzi 不蒜子 Views
 busuanzi:
-    enable: false
-    all_site_uv: false
-    post_pv: false
+    enable: true
+    all_site_uv: true
+    post_pv: true
     busuanzi_pure_mini_js: "https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"
