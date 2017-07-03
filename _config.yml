@@ -103,9 +103,10 @@ dropdown:
 # Pages Menu
 pages:
     #文章列表: /archives
-    最近访客: /guestbook
     #about: "/about"
     标签: /tags
+    关于我: /guestbook
+    友情链接: /friends
     
 
 
